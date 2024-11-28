@@ -1,3 +1,22 @@
-body{
+#profile{
+    height: 200px;
+    width: 200px;
+
+}
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.nameLogo{
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius:100%;
     background-color: blueviolet;
+    height: 40px;
+    width: 40px;
+    text-align: center;
 }
